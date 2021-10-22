@@ -806,6 +806,8 @@ class util(commands.Cog):
         )
         await ctx.send(embed=em)
 
+
+
     @tasks.loop(seconds=2.0)
     async def clientuptime(self):
         global uh, us, um, ud
